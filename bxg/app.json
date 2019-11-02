@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "color": "#333333",
+    "selectedColor": "##38adff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/homea.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "分类",
+        "iconPath": "/images/cate.png",
+        "selectedIconPath": "/images/catea.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "学习",
+        "iconPath": "/images/study.png",
+        "selectedIconPath": "/images/studya.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人",
+        "iconPath": "/images/pers.png",
+        "selectedIconPath": "/images/persa.png"
+      }
+        ]
+  }
+}

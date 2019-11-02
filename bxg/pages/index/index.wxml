@@ -1,0 +1,108 @@
+<view >
+<image  class="head" src="https://attachment-center.boxuegu.com/data/picture/online/2019/10/24/19/15f453eb41ab4cb783dca5ccbd3d3f03.jpg"/>
+</view>
+<view class="head_list">
+  <block wx:for="{{headlist}}" wx:key="headlist">
+ 
+  <view class="head_item">
+    <image class="head_nav" src="{{item.lujing}}">
+    </image>
+    <text>
+    {{item.comment}}
+    </text>
+  </view>
+   
+  </block>
+</view>
+
+
+<!-- 第二层-->
+<view class="second">
+
+  <view class="secondhead">
+    <view > | 就业课</view>
+    <view>更多</view>
+  </view>
+
+
+  <view class="secondlist" wx:for="{{secondList}}" wx:key="secondList">
+    <view class="secondleft"> <image  src="{{item.img}}"/> </view>
+    <view class="secondright">
+      <view class="tittle">{{item.tittle}}</view>
+      <view class="content">{{item.content}}</view>
+      <view class="study">
+        <view>{{item.stydu}}</view>
+      <view class="price">{{item.price}}</view>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+
+<!-- 第三层 -->
+<view class="third">
+  <view class="thirdhead">
+    <view>| 推荐课程</view>
+    <view>更多</view>
+  </view>
+
+  <view class="thirdlist">
+    <block wx:for="{{thirdSmalllist}}" wx:key="thirdSmalllist">
+    <view class="thirdline">
+
+ <block wx:for="{{item}}" wx:for-item="abc" wx:key="item">
+      <view class="thirdone">
+        <view class="thirdimg">
+<image src="{{abc.img}}" />
+        </view >
+        <view class="thirdtitle">{{abc.title}}</view>
+        <view class="thirdcontent">
+         <view class="thirdstudy">{{abc.study}}</view>
+         <view class="thirdprice">{{abc.price}}</view>
+         </view>
+      </view>
+</block>
+      <!-- <view>
+         <view>
+<image src="https://file.boxuegu.com/989b9bd2a12d471b8e7579b7182d08b6.png" />
+        </view>
+        <view>afdaf</view>
+        <view>
+         <view>22学习</view>
+         <view>￥399</view>
+         </view>
+         </view> -->
+    </view>
+    </block>
+  </view>
+</view>
+
+<!-- 第四层 -->
+<view class="fourth">
+  <view class="fourthhead">
+    <view>| 免费课程</view>
+    <view>更多</view>
+  </view>
+
+  <view class="fourthlist">
+    <block wx:for="{{fourthSmalllist}}" wx:key="fourthSmalllist">
+    <view class="fourthline">
+
+ <block wx:for="{{item}}" wx:for-item="abc" wx:key="item">
+      <view class="fourthone">
+        <view class="fourthimg">
+<image src="{{abc.img}}" />
+        </view >
+        <view class="thirdtitle">{{abc.title}}</view>
+        <view class="thirdcontent">
+         <view class="thirdstudy">{{abc.study}}</view>
+         <view class="thirdprice">{{abc.price}}</view>
+         </view>
+      </view>
+</block>
+   
+    </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,147 @@
+/* 382*170*/
+.head{
+  width:764rpx;
+  height:340rpx;
+}
+.head_nav{
+  width:100rpx;
+  height:100rpx;
+}
+.head_list{
+  height:160rpx;
+  justify-content: space-between;
+  background:#fff;
+  display:flex;
+  padding:30rpx 30rpx;
+  align-items: center;
+}
+.head_item{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.second{
+  margin-top:20rpx;
+  background: #fff;
+ 
+}
+.secondhead{
+  display: flex;
+  font-size:18px;
+  justify-content: space-between;
+  padding:30rpx 30rpx;
+}
+
+.secondlist{
+  display:flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  margin-bottom: 30rpx;
+  
+}
+/* .secondleft{
+  
+} */
+.secondleft image{
+  width:350rpx;
+  height:230rpx;
+  border-radius: 10rpx;
+}
+
+.secondright {
+  width: 350rpx;
+  height: 230rpx;
+  margin-left: 30rpx;
+}
+
+.secondright .tittle {
+  font-size: 16px;
+}
+
+.secondright .content {
+  height: 100rpx;
+  padding-top: 44rpx;
+  color: #999;
+}
+
+.secondright .study {
+  display: flex;
+  justify-content: space-between;
+
+}
+.secondright .price {
+  color: #ff544c;
+}
+.third{
+  margin-top:10px;
+  background: #fff;
+}
+.thirdhead{
+  display:flex;
+  font-size:18px;
+  justify-content: space-between;
+  padding:30rpx 30rpx;
+}
+.thirdline{
+  display: flex;
+  justify-content: space-between;
+  padding:0 30rpx;
+}
+
+image{
+  width:330rpx;
+  height:186rpx;
+  
+}
+.thirdcontent{
+  display:flex;
+  justify-content:space-between;
+  font-size:14px;
+
+}
+.thirdtitle{
+  font-size:16px;
+}
+.thirdstudy{
+  color: #999;
+}
+.thirdprice{
+  color: #ff544c;
+}
+
+.fourth{
+  margin-top:10px;
+  background: #fff;
+}
+.fourthhead{
+  display:flex;
+  font-size:18px;
+  justify-content: space-between;
+  padding:30rpx 30rpx;
+}
+.fourthline{
+  display: flex;
+  justify-content: space-between;
+  padding:0 30rpx;
+}
+
+image{
+  width:330rpx;
+  height:186rpx;
+  
+}
+.fourthcontent{
+  display:flex;
+  justify-content:space-between;
+  font-size:14px;
+
+}
+.fourthtitle{
+  font-size:16px;
+}
+.fourthstudy{
+  color: #999;
+}
+.fourthprice{
+  color: #ff544c;
+}
